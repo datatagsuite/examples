@@ -1,0 +1,634 @@
+{
+  "identifiers": [
+    {
+      "identifier": "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48964",
+      "identifierSource": "GEO"
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "identifier": "PRJNA212422",
+      "identifierSource": "BioProject"
+    },
+    {
+      "identifier": "[GSM1187673-GSM1187678]",
+      "identifierSource": "BioSamples"
+    },
+    {
+      "identifier": "GPL6244",
+      "identifierSource": "GEO Platform"
+    },
+    {
+      "identifier": "24040759",
+      "identifierSource": "pubmed"
+    }
+  ],
+  "title" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
+  "description" : "The adipose tissue is an endocrine regulator and a risk factor for atherosclerosis and cardiovascular disease when by excessive accumulation induces obesity. Although the adipose tissue is also a reservoir for stem cells (ASC) their function and “stemcellness” has been questioned. Our aim was to investigate the mechanisms by which obesity affects subcutaneous white adipose tissue (WAT) stem cells. We used microarrays to analyze differences in transcriptomic profiles between the adipose stem cells from morbidly obese and non-obese individuals.",
+  "creators": [
+    {
+      "firstName": "Lina",
+      "lastName": "Badimon",
+      "email": "lbadimon@csic-iccc.org"
+    }
+  ],
+  "types" : [
+    {
+      "value" : "Expression profiling by array",
+      "ontologyTermIRI" : ""
+    }
+  ],
+
+
+  "keywords": [
+    {
+      "value": "transcription profiling",
+      "ontologyTermIRI" : ""
+    }
+  ],
+  "distributions" : [
+    {
+      "identifiers": [
+        {
+          "identifier" : "1",
+          "identifierSource": ""
+        }
+      ],
+      "dates": [
+        {
+          "date": "2013-07-17",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-02-02",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+      "accessModalities" : [
+        {
+          "landingPage": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964/",
+          "accessURL" :  "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964/miniml/",
+          "licenses": [
+            {
+              "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
+            }
+          ]
+        }
+      ],
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000076",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "MiniML",
+          "type": {
+            "value": "format",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+      "storedIn" : [
+        {
+          "identifiers": [
+            {
+              "identifier": "http://www.ncbi.nlm.nih.gov/geo/",
+              "identifierSource": "http"
+            }
+          ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://biosharing.org/biodbcore-000441",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "The Gene Expression Omnibus",
+          "types" :[
+            {
+              "value" : "primary repository",
+              "ontologyTermIRI" : ""
+            }
+          ],
+          "version": ""
+        }
+      ],
+      "size": 7.7,
+      "unit" : {
+        "value" : "megabyte",
+        "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
+      }
+    },
+
+    {
+      "identifiers" : [
+        {
+          "identifier" : "2",
+          "identifierSource": ""
+        }
+      ],
+      "dates": [
+        {
+          "date": "2013-07-17",
+          "type": {
+            "value": "creation",
+            "ontologyTermIRI" : ""
+          }
+        },
+        {
+          "date": "2016-02-02",
+          "type": {
+            "value": "modification",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+      "accessModalities" : [
+        {
+          "landingPage": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964",
+          "accessURL" :  "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48964/soft/"
+        }
+      ],
+      "conformsTo": [
+        {
+          "identifiers": [
+            {
+              "identifier": "https://www.biosharing.org/bsg-000077",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "SOFT",
+          "type": {
+            "value": "format",
+            "ontologyTermIRI" : ""
+          }
+        }
+      ],
+      "storedIn" : [
+        {
+          "identifiers": [
+            {
+              "identifier": "http://uniprot.org/uniprot",
+              "identifierSource": "HTTP"
+            }
+          ],
+          "relatedIdentifiers": [
+            {
+              "identifier": "https://www.biosharing.org/biodbcore-000544",
+              "identifierSource": "BioSharing"
+            }
+          ],
+          "name": "the Uniprot Knowledge Base",
+          "licenses" : [
+            {
+              "name": "Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms Distributed under the Creative Commons Attribution-NoDerivs License"
+            }
+          ],
+          "types" :[
+            {
+              "value" : "knowledge base",
+              "ontologyTermIRI" : ""
+            }
+          ],
+          "version": "116"
+        }
+      ],
+      "size": 7.7,
+      "unit" : {
+        "value" : "megabyte",
+        "ontologyTermIRI" : "http://purl.obolibrary.org/obo/UO_0000235"
+      }
+    }
+  ],
+
+  "isCitedBy" : [
+    {
+      "identifiers": [
+        {
+          "identifier": "24040759",
+          "identifierSource": "pubmed"
+        }
+      ],
+      "title": "Stem cells isolated from adipose tissue of obese patients show changes in their transcriptomic profile that indicate loss in stemcellness and increased commitment to an adipocyte-like phenotype. BMC Genomics 2013 Sep 16;14:625.",
+      "type" : {
+        "value" : "article",
+        "ontologyTermIRI" : ""
+      },
+      "publicationVenue" : "BMC Genomics.",
+      "dates" : [
+        {
+          "date": "2013",
+          "type": {}
+        }
+      ],
+      "authorsList" : "",
+      "authors" : [
+        {
+          "firstName": "B.",
+          "lastName": "Onate"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "Vilahur"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Camino-López"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Díez-Caballero"
+        },
+        {
+          "firstName": "C.",
+          "lastName": "Ballesta-López"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Ybarra"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Moscatiello"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Herrero"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Badimon"
+        }
+      ]
+    }
+
+  ],
+
+  "isAbout": [
+    {
+      "name": "endocrine regulation",
+      "identifiers": [
+        {
+          "identifier": "GO:0044060",
+          "identifierSource": "go"
+        }
+      ]
+    },
+    {
+      "name": "obesity",
+      "identifiers": [
+        {
+          "identifier": "HP:0001513",
+          "identifierSource": "hpo"
+        }
+      ]
+    }
+  ],
+  "producedBy" : {
+    "name" : "Expression data from Adipose Stem Cells (ASC) from morbidly obese and non-obese individuals",
+    "selectionCriteria": [
+      { "value" : "patients that are lean; BMI<25 kg/m2 (ASCn)" },
+      { "value" : "patients that are obese; BMI>35 kg/m2 (ASCn)" }
+    ],
+    "input": [
+      {
+        "name": "ASC_morbidly-obese_biological rep1",
+        "identifiers": [
+          {
+            "identifier": "GSM1187673",
+            "identifierSource": "GEO"
+          }
+        ],
+        "taxonomicInformation": [
+          {
+            "name": "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom": [
+          {
+            "name": "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics": [
+          {
+            "name": {
+              "value": "disease",
+              "ontologyTermIRI": ""
+            },
+            "values": [
+              {
+                "name": "Morbidly obese patient"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASC_lean_biological rep1",
+        "identifiers": [
+          {
+            "identifier": "GSM1187676",
+            "identifierSource": "geo"
+          }
+        ],
+        "taxonomicInformation" : [
+          {
+            "name":  "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom" : [
+          {
+            "name":  "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics" : [
+          {
+            "name" : "Non-obese individual",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASC_morbidly-obese_biological rep2",
+        "identifiers": [
+          {
+            "identifier": "GSM1187674",
+            "identifierSource": "GEO"
+          }
+        ],
+        "taxonomicInformation" : [
+          {
+            "name":  "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom" : [
+          {
+            "name":  "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics" : [
+          {
+            "name" : "Morbidly obese patient",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASC_lean_biological rep2",
+        "identifiers": [
+          {
+            "identifier": "GSM1187677",
+            "identifierSource": "geo"
+          }
+        ],
+        "taxonomicInformation" : [
+          {
+            "name":  "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom" : [
+          {
+            "name":  "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics" : [
+          {
+            "name" : "Non-obese individual",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASC_morbidly-obese_biological rep3",
+        "identifiers": [
+          {
+            "identifier": "GSM1187675",
+            "identifierSource": "geo"
+          }
+        ],
+
+        "taxonomicInformation" : [
+          {
+            "name":  "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom" : [
+          {
+            "name":  "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics" : [
+          {
+            "name" : "Morbidly obese patient",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ASC_lean_biological rep3",
+        "identifiers": [
+          {
+            "identifier": "GSM1187678",
+            "identifierSource": "geo"
+          }
+        ],
+        "taxonomicInformation" : [
+          {
+            "name":  "Homo sapiens",
+            "identifiers": [
+              {
+                "identifier": "9606",
+                "identifierSource": "ncbitax"
+              }
+            ]
+          }
+        ],
+        "derivesFrom" : [
+          {
+            "name":  "subcutaneous white adipose tissue",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ],
+        "characteristics" : [
+          {
+            "name" : "Non-obese individual",
+            "identifiers": [
+              {
+                "identifier": "",
+                "identifierSource": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "schedulesDataAcquisition": [
+      {
+        "name" : "DNA microarray hybridization",
+        "startDate": {
+          "date": "17-SEP-13",
+          "type": { "value": "startDate" }
+        },
+        "endDate": {
+          "date": "21-MAY-15",
+          "type": { "value": "endDate"}
+        },
+        "uses": [
+          {
+            "name": "Affymetrix Expression Console",
+            "type": { "value": "console"}
+          },
+          {
+            "name": "Affymetrix GeneChip Scanner 3000",
+            "type": { "value": "scanner"}
+          },
+          {
+            "name": "Affymetrix Human Gene 1.0 ST Array",
+            "type": { "value": "array"}
+          }
+        ]
+      }
+    ],
+    "studyGroups": [
+      {
+        "name": "lean",
+        "size": 3,
+        "members": [
+          { "name": "GSM1187676"},
+          { "name": "GSM1187677"},
+          { "name": "GSM1187678"}
+        ]
+      },
+      {
+        "name": "obese",
+        "size": 3,
+        "members": [
+          { "name":"GSM1187673"},
+          { "name": "GSM1187674"},
+          { "name": "GSM1187675"}
+        ]
+      }
+    ]
+  },
+
+  "hasPart" : [
+    {
+      "identifiers" : [
+        {
+          "identifier" : "http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE48964&format=file",
+          "identifierSource": "GEO"
+        }
+      ],
+      "title": "GSE48964_RAW.tar",
+      "creators": [
+        {
+          "firstName": "Lina",
+          "lastName": "Badimon",
+          "email": "lbadimon@csic-iccc.org"
+        }
+      ],
+      "types" : [
+        {
+          "value" : "Expression profiling by array",
+          "ontologyTermIRI" : ""
+        },
+        {
+          "value" : "Raw data",
+          "ontologyTermIRI" : ""
+        }
+      ]
+    }
+  ]
+}
