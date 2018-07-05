@@ -38,8 +38,8 @@
                     "identifierSource": ""
                 },
                 "access": {
-                    "accessURL": "/data/DO/do_1.0.obo",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/DO/do_1.0.obo",
+                    "landingPage": "https://identifiers.org/minid:b9n39d"
                 },
                 "conformsTo": [{
                     "name": "obo format",
@@ -70,8 +70,8 @@
                     "identifierSource": ""
                 },
                 "access": {
-                    "accessURL": "data/GO/go_1.0.obo",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/GO/go_1.0.obo",
+                    "landingPage": "http://identifiers.org/minid:b9hd64"
                 },
                 "conformsTo": [{
                     "name": "obo format",
@@ -109,8 +109,8 @@
                     "identifierSource": ""
                 },
                 "access": {
-                    "accessURL": "data/SO/so_1.0.obo",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/SO/so_1.0.obo",
+                    "landingPage": "http://identifiers.org/minid:b9px1z"
                 },
                 "conformsTo": [{
                     "name": "obo format",
@@ -141,8 +141,8 @@
                     "identifierSource": ""
                 },
                 "access": {
-                    "accessURL": "data/FB_1.0.4_4.tar.gz",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/FB_1.0.4_4.tar.gz",
+                    "landingPage": "http://identifiers.org/minid:b9dm68"
                 },
                 "conformsTo": [{
                     "name": "tar.gz",
@@ -173,8 +173,8 @@
                     "identifierSource": ""
                 },
                 "access": {
-                    "accessURL": "data/GO/ANNOT/gene_association.fb.gz",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/GO/ANNOT/gene_association.fb.gz",
+                    "landingPage": "http://identifiers.org/minid:b9cm3t"
                 },
                 "conformsTo": [{
                     "name": "tar.gz",
@@ -205,8 +205,8 @@
                     "identifierSource": "minid"
                 },
                 "access": {
-                    "accessURL": "data/ORTHO/orthology_FlyBase_1.0.0_2.json.tar.gz",
-                    "landingPage": ""
+                    "accessURL": "https://s3.amazonaws.com/mod-datadumps/ORTHO/orthology_FlyBase_1.0.0_2.json.tar.gz",
+                    "landingPage": "http://identifiers.org/minid:b9m393"
                 },
                 "conformsTo": [
                     {
@@ -239,7 +239,7 @@
             "identifierSource": "minid"
         },
         "access": {
-            "landingPage": "http://minid.bd2k.org/minid/landingpage/ark:/57799/b9j69h",
+            "landingPage": "http://identifiers.org/minid/b9j69h",
             "accessURL": "https://nih-commons.s3.amazonaws.com/misc/agr-example.tgz"
         },
         "conformsTo": [{
