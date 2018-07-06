@@ -362,8 +362,8 @@
       "@type": "DatasetDistribution",
       "access": {
         "@type": "Access",
-        "accessURL": "",
-        "landingPage": ""
+         "accessURL": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/dataset.cgi?study_id=phs001143.v1.p1&phv=273211&phd=6969&pha=&pht=5905&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1",
+         "landingPage": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001143.v1.p1"
       }
     }
   ],
