@@ -32,7 +32,7 @@
       "qualifiers": [ { "value": "gzip compressed" }],
       "formats": [ "TXT" ],
       "access": {
-        "landingPage": "",
+        "landingPage": "https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-70652/",
         "accessURL": "https:\/\/www.ebi.ac.uk\/arrayexpress\/files\/E-GEOD-70652\/E-GEOD-70652.raw.1.zip",
         "types": [{
           "value": "download"
@@ -57,7 +57,7 @@
       "qualifiers": [ {"value": "gzip compressed"}],
       "formats": [ "TXT" ],
       "access": {
-        "landingPage": "",
+        "landingPage": "https://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-70652/",
         "accessURL": "https:\/\/www.ebi.ac.uk\/arrayexpress\/files\/E-GEOD-70652\/E-GEOD-70652.processed.1.zip",
         "types": [{
           "value": "download"
@@ -80,7 +80,7 @@
       }],
       "formats": [ "HTML" ],
       "access": {
-        "landingPage": "",
+        "landingPage": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70652",
         "accessURL": "https:\/\/www.ncbi.nlm.nih.gov\/geo\/query\/acc.cgi?acc=GSE70652",
         "types": [{
           "value": "landing page"
