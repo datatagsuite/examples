@@ -26,8 +26,7 @@
   "creators": [{
     "firstName": "Barbara",
     "middleInitial" : "K.",
-    "lastName": "Lipska",
-    "email": ""
+    "lastName": "Lipska"
   }],
   "types": [
     {
@@ -119,8 +118,7 @@
         {
           "firstName": "Barbara",
           "middleInitial" : "K.",
-          "lastName": "Lipska",
-          "email": ""
+          "lastName": "Lipska"
         }
       ],
       "dimensions":
@@ -545,7 +543,6 @@
         "fullName": "Barbara K. Lipska",
         "firstName": "Barbara",
         "lastName": "Lipska",
-        "email": "",
         "affiliations": [
           {
             "name": "National Institutes of Health",

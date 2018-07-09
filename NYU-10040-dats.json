@@ -173,8 +173,6 @@
               "value":  "http://www.med.nyu.edu/biosketch/ses2127",
               "valueIRI": ""
             }
-
-
           ]
         }
       ]
@@ -183,7 +181,6 @@
       "fullName": "Donna Shelley",
       "firstName": "Donna",
       "lastName": "Shelley",
-      "email": "",
       "extraProperties": [
         {
           "category": "bio_url",
@@ -201,7 +198,6 @@
       "fullName": "Erin Rogers",
       "firstName": "Erin",
       "lastName": "Rogers",
-      "email": "",
       "extraProperties": [
         {
           "category": "bio_url",
