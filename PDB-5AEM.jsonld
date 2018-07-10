@@ -1,5 +1,5 @@
 {
-  "@context": "https://biocaddie.github.io/DATS/dataset_sdo_context.jsonld",
+  "@context": "http://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
   "@type": "Dataset",
   "identifier": {
     "identifier": "5AEM",
@@ -16,7 +16,7 @@
 
   "creators": [
     {
-      "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+      "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
       "@type": "Person",
       "fullName": "C.W.Muller"
     }
@@ -35,7 +35,7 @@
 
   "distributions": [
     {
-      "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
+      "@context": "http://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
       "@type": "DatasetDistribution",
       "dates": [
         {
@@ -58,8 +58,8 @@
       {
         "@type": "DataRepository",
         "identifier": {
-          "identifier": "https://www.biosharing.org/biodbcore-000511",
-          "identifierSource": "BioSharing"
+          "identifier": "https://www.fairsharing.org/biodbcore-000511",
+          "identifierSource": "FAIRsharing"
         },
         "alternateIdentifiers": [
           {
@@ -77,21 +77,21 @@
       },
       "conformsTo": [
         {
-          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000255",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000255",
+            "identifierSource": "FAIRsharing"
           },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000290",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000290",
+            "identifierSource": "FAIRsharing"
           },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "@context": "https://biocaddie.github.io/DATS/dataset_distribution_sdo_context.jsonld",
+      "@context": "http://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
       "@type": "DatasetDistribution",
       "dates": [
         {
@@ -122,8 +122,8 @@
       {
         "@type": "DataRepository",
         "identifier": {
-          "identifier": "https://www.biosharing.org/biodbcore-000511",
-          "identifierSource": "BioSharing"
+          "identifier": "https://www.fairsharing.org/biodbcore-000511",
+          "identifierSource": "FAIRsharing"
         },
         "alternateIdentifiers": [{
           "identifier": "http://www.rcsb.org/pdb/",
@@ -139,21 +139,21 @@
       },
       "conformsTo": [
         {
-          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000255",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000255",
+            "identifierSource": "FAIRsharing"
           },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000290",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000290",
+            "identifierSource": "FAIRsharing"
           },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
@@ -200,8 +200,8 @@
       {
         "@type": "DataRepository",
         "identifier": {
-          "identifier": "https://www.biosharing.org/biodbcore-000511",
-          "identifierSource": "BioSharing"
+          "identifier": "https://www.fairsharing.org/biodbcore-000511",
+          "identifierSource": "FAIRsharing"
         },
         "alternateIdentifiers": [
           {
@@ -219,21 +219,21 @@
       },
       "conformsTo": [
         {
-         "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+         "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000255",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000255",
+            "identifierSource": "FAIRsharing"
           },
           "name": "Protein Data Bank Format",
           "type": { "value": "format"}
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/data_standard_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/data_standard_sdo_context.jsonld",
           "@type": "DataStandard",
           "identifier": {
-            "identifier": "https://www.biosharing.org/bsg-000290",
-            "identifierSource": "BioSharing"
+            "identifier": "https://www.fairsharing.org/bsg-000290",
+            "identifierSource": "FAIRsharing"
           },
           "name": "macromolecular Crystallographic Information File",
           "type": { "value": "format"}
@@ -262,49 +262,49 @@
       ],
       "authors" : [
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "G.",
           "lastName": "Male"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "A.",
           "lastName": "Von Appen"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "S.",
           "lastName": "Glatt"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "N.M.I.",
           "lastName": "Taylor"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "M.",
           "lastName": "Cristovao"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "H.",
           "lastName": "Groetsch"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "M.",
           "lastName": "Beck"
         },
         {
-          "@context": "https://biocaddie.github.io/DATS/person_sdo_context.jsonld",
+          "@context": "http://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
           "@type": "Person",
           "firstName": "C.W.",
           "lastName": "Muller"
