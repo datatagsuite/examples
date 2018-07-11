@@ -50,12 +50,14 @@
 
       "access":
       {
+        "@context": "http://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
         "@type": "Access",
         "landingPage": "http://identifiers.org/pdb/5AEM",
         "accessURL": "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=5AEM"
       },
       "storedIn" :
       {
+        "@context": "http://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld",
         "@type": "DataRepository",
         "identifier": {
           "identifier": "https://www.fairsharing.org/biodbcore-000511",
@@ -70,6 +72,7 @@
         "name": "RCSB Protein Data Bank",
         "licenses" : [
           {
+            "@context": "http://w3id.org/dats/context/sdo/license_sdo_context.jsonld",
             "@type": "License",
             "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
           }
@@ -114,12 +117,14 @@
 
       "access":
       {
+        "@context": "http://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
         "@type": "Access",
         "landingPage": "http://identifiers.org/pdb/5AEM",
         "accessURL": "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId=5AEM"
       },
       "storedIn" :
       {
+        "@context": "http://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld",
         "@type": "DataRepository",
         "identifier": {
           "identifier": "https://www.fairsharing.org/biodbcore-000511",
@@ -133,6 +138,8 @@
         "name": "RCSB Protein Data Bank",
         "licenses" : [
           {
+            "@context": "http://w3id.org/dats/context/sdo/license_sdo_context.jsonld",
+            "@type": "License",
             "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
           }
         ]
@@ -161,24 +168,7 @@
       ]
     },
     {
-      "@context": {
-        "sdo": "https://schema.org/",
-        "DatasetDistribution": "sdo:DataDownload",
-        "title": {
-          "@id": "sdo:name",
-          "@type": "sdo:Text"
-        },
-        "description": {
-          "@id": "sdo:description",
-          "@type": "sdo:Text"
-        },
-        "storedIn": {
-          "@id": "sdo:includedInDataCatalog",
-          "@type": "sdo:DataCatalog"
-        },
-        "version": "sdo:version",
-        "licenses": "sdo:license"
-      },
+      "@context": "http://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
       "@type": "DatasetDistribution",
       "dates": [
         {
@@ -192,12 +182,14 @@
       ],
       "access":
       {
+        "@context": "http://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
         "@type": "Access",
         "landingPage": "http://identifiers.org/pdb/5AEM",
         "accessURL": "http://www.rcsb.org/pdb/files/5AEM.pdb.gz"
       },
       "storedIn" :
       {
+        "@context": "http://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld",
         "@type": "DataRepository",
         "identifier": {
           "identifier": "https://www.fairsharing.org/biodbcore-000511",
@@ -212,6 +204,7 @@
         "name": "RCSB Protein Data Bank",
         "licenses" : [
           {
+            "@context": "http://w3id.org/dats/context/sdo/license_sdo_context.jsonld",
             "@type": "License",
             "name": "free of all copyright restrictions and made fully and freely available for both non-commercial and commercial use"
           }
@@ -243,6 +236,7 @@
   ],
   "primaryPublications" : [
     {
+      "@context": "http://w3id.org/dats/context/sdo/publication_sdo_context.jsonld",
       "@type": "Publication",
       "identifier": {
         "identifier": "26060179",
@@ -314,6 +308,7 @@
 
   ],
   "producedBy" : {
+    "@context": "http://w3id.org/dats/context/sdo/study_sdo_context.jsonld",
     "@type": "Study",
     "name" : "crystallography study",
     "input": [
@@ -328,6 +323,7 @@
     ],
     "schedulesDataAcquisition": [
       {
+        "@context": "http://w3id.org/dats/context/sdo/data_acquisition_sdo_context.jsonld",
         "@type": "DataAcquisition",
         "name" : "X-RAY DIFFRACTION",
         "startDate": {
