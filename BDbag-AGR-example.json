@@ -1,5 +1,10 @@
 {
+    "@type": "Dataset",
+    "@id": "http://identifiers.org/minid:b9j69h",
+    "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
     "identifier": {
+        "@type": "Identifier",
+        "@context": "https://w3id.org/dats/context/sdo/identifier_info_sdo_context.jsonld",
         "identifier": "http://identifiers.org/minid:b9j69h",
         "identifierSource": "minid"
     },
@@ -13,11 +18,18 @@
         }
     }],
     "creators": [{
+        "@type": "Person",
+        "@context": "https://w3id.org/dats/context/sdo/person_sdo_context.jsonld",
+        "@id": "http://orcid.org/0000-0003-2280-917X",
         "identifier": {
             "identifier": "http://orcid.org/0000-0003-2280-917X",
             "identifierSource": "orcid"
         },
-        "affiliations": [{"name": "University of Southern California / Information Science"}],
+        "affiliations": [{
+            "@type": "Organization",
+            "@context": "https://w3id.org/dats/context/sdo/organization_sdo_context.jsonld",
+            "name": "University of Southern California / Information Science"
+        }],
         "firstName": "Michel",
         "fullName": "Mike d'Arcy",
         "lastName": "d'Arcy"
@@ -25,6 +37,9 @@
     "types": [{"information": {"value": "model organism data"}}],
     "hasPart": [
         {
+            "@type": "Dataset",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
+            "@id": "https://identifiers.org/minid:b9n39d",
             "identifier": {
                 "identifier": "minid:b9n39d",
                 "identifierSource": "minid"
@@ -33,11 +48,15 @@
             "types": [{"information": {"value": "ontology terms"}}],
             "creators": [ {} ],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "minid:b9n39d",
                     "identifierSource": ""
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/DO/do_1.0.obo",
                     "landingPage": "https://identifiers.org/minid:b9n39d"
                 },
@@ -57,19 +76,26 @@
             }]
         },
         {
+            "@type": "Dataset",
+            "@id": "http://identifiers.org/minid:b9hd64",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
             "identifier": {
                 "identifier": "minid:b9hd64",
                 "identifierSource": "minid"
             },
             "title": "A list of gene ontology terms obtained from the Gene Ontology Consortium.",
             "types": [{"information": {"value": "ontology terms"}}],
-            "creators": [ {} ],
+            "creators": [ { } ],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "minid:b9hd64",
                     "identifierSource": ""
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/GO/go_1.0.obo",
                     "landingPage": "http://identifiers.org/minid:b9hd64"
                 },
@@ -89,6 +115,9 @@
             }]
         },
         {
+            "@type": "Dataset",
+            "@id": "http://identifiers.org/minid:b9px1z",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
             "identifier": {
                 "identifier": "minid:b9px1z",
                 "identifierSource": "minid"
@@ -104,11 +133,15 @@
                 }
             }],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "minid:b9px1z",
                     "identifierSource": ""
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/SO/so_1.0.obo",
                     "landingPage": "http://identifiers.org/minid:b9px1z"
                 },
@@ -128,6 +161,9 @@
             }]
         },
         {
+            "@type": "Dataset",
+            "@id": "http://identifiers.org/minid:b9dm68",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
             "identifier": {
                 "identifier": "minid:b9dm68",
                 "identifierSource": "minid"
@@ -136,11 +172,15 @@
             "types": [{"information": {"value": "MOD data"}}],
             "creators": [ {} ],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "minid:b9dm68",
                     "identifierSource": ""
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/FB_1.0.4_4.tar.gz",
                     "landingPage": "http://identifiers.org/minid:b9dm68"
                 },
@@ -160,6 +200,9 @@
             }]
         },
         {
+            "@type": "Dataset",
+            "@id": "http://identifiers.org/minid:b9cm3t",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
             "identifier": {
                 "identifier": "minid:b9cm3t",
                 "identifierSource": "minid"
@@ -168,11 +211,15 @@
             "types": [{"information": {"value": "gene association data"}}],
             "creators": [ {} ],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "minid:b9cm3t",
                     "identifierSource": ""
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/GO/ANNOT/gene_association.fb.gz",
                     "landingPage": "http://identifiers.org/minid:b9cm3t"
                 },
@@ -192,6 +239,9 @@
             }]
         },
         {
+            "@type": "Dataset",
+            "@id":  "http://identifiers.org/minid:b9m393",
+            "@context": "https://w3id.org/dats/context/sdo/dataset_sdo_context.jsonld",
             "identifier": {
                 "identifier": "http://identifiers.org/minid:b9m393",
                 "identifierSource": "minid"
@@ -200,11 +250,15 @@
             "types": [{"information": {"value": "orthology data"}}],
             "creators": [ {} ],
             "distributions": [{
+                "@type": "DatasetDistribution",
+                "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
                 "identifier": {
                     "identifier": "http://identifiers.org/minid:b9m393",
                     "identifierSource": "minid"
                 },
                 "access": {
+                    "@type": "Access",
+                    "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
                     "accessURL": "https://s3.amazonaws.com/mod-datadumps/ORTHO/orthology_FlyBase_1.0.0_2.json.tar.gz",
                     "landingPage": "http://identifiers.org/minid:b9m393"
                 },
@@ -234,11 +288,15 @@
         }
     ],
     "distributions": [{
+        "@type": "DatasetDistribution",
+        "@context": "https://w3id.org/dats/context/sdo/dataset_distribution_sdo_context.jsonld",
         "identifier": {
             "identifier": "http://identifiers.org/minid:b9j69h",
             "identifierSource": "minid"
         },
         "access": {
+            "@type": "Access",
+            "@context": "https://w3id.org/dats/context/sdo/access_sdo_context.jsonld",
             "landingPage": "http://identifiers.org/minid/b9j69h",
             "accessURL": "https://nih-commons.s3.amazonaws.com/misc/agr-example.tgz"
         },
