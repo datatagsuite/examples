@@ -12,13 +12,13 @@
   },
   "dates": [
     {
-      "date": "20160608",
+      "date": "2016-06-08T00:00:00.00Z",
       "type": {
         "value": "created"
       }
     },
     {
-      "date": "20170608",
+      "date": "2017-06-08T00:00:00.00Z",
       "type": {
         "value": "modified"
       }
@@ -123,7 +123,7 @@
           }
         ],
         "startDate": {
-          "date": "20170403",
+          "date": "2017-04-03T00:00:00.00Z",
           "type": {
             "value": "start"
           }
@@ -133,7 +133,7 @@
         },
         "dates": [
           {
-            "date": "20170608",
+            "date": "2017-06-08T00:00:00.00Z",
             "type": {
               "value": "modified"
             }
@@ -183,7 +183,7 @@
           }
         ],
         "startDate": {
-          "date": "20161101",
+          "date": "2016-11-01T00:00:00.00Z",
           "type": {
             "value": "start"
           }
@@ -193,7 +193,7 @@
         },
         "dates": [
           {
-            "date": "20161101",
+            "date": "2016-11-01T00:00:00.00Z",
             "type": {
               "value": "modified"
             }

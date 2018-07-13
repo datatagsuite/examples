@@ -11,7 +11,7 @@
     "title": "AGR Data set with identifier-based references to data in cloud storage",
     "description": "AGR Data set with identifier-based references to data in cloud storage",
     "dates": [{
-        "date": "2018-03-19 17:43:57.073822",
+        "date": "2018-03-19T17:43:57.073822",
         "type": {
             "value": "creation",
             "valueIRI": ""
@@ -126,7 +126,7 @@
             "types": [{"information": {"value": "ontology terms"}}],
             "creators": [ {} ],
             "dates": [{
-                "date": "2.6.2018",
+                "date": "2018-06-02T00:00:00.00Z",
                 "type": {
                     "value": "creation",
                     "valueIRI": ""

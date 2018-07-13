@@ -12,13 +12,13 @@
     },
     "dates": [
       {
-        "date": "20150710",
+        "date": "2015-07-10T00:00:00.00Z",
         "type": {
           "value": "created"
         }
       },
       {
-        "date": "20170922",
+        "date": "2017-09-22T00:00:00.00Z",
         "type": {
           "value": "modified"
         }
@@ -149,7 +149,7 @@
               ],
                "keywords": [ { "value": "protocol"}  ],
               "startDate": {
-                "date": "20170403",
+                "date": "2017-04-03T00:00:00.00Z",
                 "type": {
                   "value": "start"
                 }
@@ -158,7 +158,7 @@
                 "identifier": "phd006969.2"
               },
               "dates": [ {
-                "date": "20170918",
+                "date": "2017-09-18T00:00:00.00Z",
                 "type": {
                   "value": "modified"
                 }

@@ -77,37 +77,30 @@
   ],
   "dates": [
     {
-      "date": "2015",
+      "date": "2015-01-01T00:00:00.00Z",
       "type": {
         "value": "dataset_end_date",
         "valueIRI": ""
       }
     },
     {
-      "date": "2008",
+      "date": "2008-01-01T00:00:00.00Z",
       "type": {
         "value": "dataset_start_date",
         "valueIRI": ""
       }
     },
     {
-      "date": "2015-05-22 00:00:00.000000",
+      "date": "2015-05-22T00:00:00.00Z",
       "type": {
         "value": "addition date",
         "valueIRI": ""
       }
     },
     {
-      "date": "2017-06-14 00:00:00.000000",
+      "date": "2017-06-14T00:00:00.00Z",
       "type": {
         "value": "update date",
-        "valueIRI": ""
-      }
-    },
-    {
-      "date": "",
-      "type": {
-        "value": "archival date",
         "valueIRI": ""
       }
     }
@@ -286,7 +279,7 @@
       "publicationVenue": "Trials.",
       "dates": [
         {
-          "date": "2012",
+          "date": "2012-01-01T00:00:00.00Z",
           "type": {
             "value": "publication date"
           }
@@ -337,7 +330,7 @@
       "publicationVenue": "Am J Prev Med.",
       "dates": [
         {
-          "date": "2015",
+          "date": "2015-01-01T00:00:00.00Z",
           "type": {
             "value": "publication date"
           }
@@ -593,13 +586,6 @@
         "identifierSource": ""
       },
       "dates": [
-        {
-          "date": "",
-          "type": {
-            "value": "",
-            "valueIRI": ""
-          }
-        }
       ],
       "access": {
         "landingPage": "https://clinicaltrials.gov/",
