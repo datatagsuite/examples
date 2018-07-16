@@ -239,14 +239,14 @@
         },
       "dates": [
         {
-          "date": "2006-05-16",
+          "date": "2006-05-16T00:00:00.00Z",
           "type": {
             "value": "creation",
             "valueIRI" : ""
           }
         },
         {
-          "date": "2016-04-13",
+          "date": "2016-04-13T00:00:00.00Z",
           "type": {
             "value": "modification",
             "valueIRI" : ""
@@ -322,14 +322,14 @@
       },
       "dates": [
         {
-          "date": "2006-05-16",
+          "date": "2006-05-16T00:00:00.00Z",
           "type": {
             "value": "creation",
             "valueIRI" : ""
           }
         },
         {
-          "date": "2016-04-13",
+          "date": "2016-04-13T00:00:00.00Z",
           "type": {
             "value": "modification",
             "valueIRI" : ""
@@ -402,14 +402,14 @@
       },
       "dates": [
         {
-          "date": "2006-05-16",
+          "date": "2006-05-16T00:00:00.00Z",
           "type": {
             "value": "creation",
             "valueIRI" : ""
           }
         },
         {
-          "date": "2016-04-13",
+          "date": "2016-04-13T00:00:00.00Z",
           "type": {
             "value": "modification",
             "valueIRI" : ""
@@ -482,14 +482,14 @@
       },
       "dates": [
         {
-          "date": "2006-05-16",
+          "date": "2006-05-16T00:00:00.00Z",
           "type": {
             "value": "creation",
             "valueIRI" : ""
           }
         },
         {
-          "date": "2016-04-13",
+          "date": "2016-04-13T00:00:00.00Z",
           "type": {
             "value": "modification",
             "valueIRI" : ""
@@ -568,14 +568,14 @@
       },
       "dates": [
         {
-          "date": "2006-05-16",
+          "date": "2006-05-16T00:00:00.00Z",
           "type": {
             "value": "creation",
             "valueIRI" : ""
           }
         },
         {
-          "date": "2016-04-13",
+          "date": "2016-04-13T00:00:00.00Z",
           "type": {
             "value": "modification",
             "valueIRI" : ""
@@ -655,7 +655,7 @@
         "valueIRI" : ""
       },
       "publicationVenue" : "DNA Res.",
-      "dates" : [ { "date": "1996", "type": { }}],
+      "dates" : [ { "date": "1996-01-01T00:00:00.00Z", "type": { }}],
       "authorsList" : "Kaneko T, Sato S, Kotani H, Tanaka A, Asamizu E, Nakamura Y, Miyajima N, Hirosawa M, Sugiura M, Sasamoto S, Kimura T, Hosouchi T, Matsuno A, Muraki A, Nakazaki N, Naruo K, Okumura S, Shimpo S, Takeuchi C, Wada T, Watanabe A, Yamada M, Yasuda M, Tabata S.",
       "authors" : [
         {
@@ -755,7 +755,7 @@
         "valueIRI" : ""
       },
       "publicationVenue" : "Nucleic Acids Res.",
-      "dates" : [ {"date": "2000", "type": {}} ],
+      "dates" : [ {"date": "2000-01-01T00:00:00.00Z", "type": {}} ],
       "authorsList" : "Hitomi K, Okamoto K, Daiyasu H, Miyashita H, Iwai S, Toh H, Ishiura M, Todo T.",
       "authors" : [
         {
@@ -818,7 +818,7 @@
         "valueIRI" : ""
       },
       "publicationVenue" : "J. Biol. Chem.",
-      "dates" : [ {"date": "2003", "type": {}} ],
+      "dates" : [ {"date": "2003-01-01T00:00:00.00Z", "type": {}} ],
       "authorsList" : "Worthington EN, Kavakli IH, Berrocal-Tito G, Bondo BE, Sancar A.",
       "authors" : [
         {
@@ -861,7 +861,7 @@
         "valueIRI" : ""
       },
       "publicationVenue" : "Mol. Cell",
-      "dates" : [ {"date": "2003", "type": {}} ],
+      "dates" : [ {"date": "2003-01-01T00:00:00.00Z", "type": {}} ],
       "authorsList" : "Brudler R, Hitomi K, Daiyasu H, Toh H, Kucho K, Ishiura M, Kanehisa M, Roberts VA, Todo T, Tainer JA, Getzoff ED.",
       "authors" : [
         {

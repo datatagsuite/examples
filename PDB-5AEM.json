@@ -35,11 +35,11 @@
     {
       "dates": [
         {
-          "date": "2015/01/05",
+          "date": "2015-01-05T00:00:00.00Z",
           "type": {}
         },
         {
-          "date": "2015/06/24",
+          "date": "2015-06-24T00:00:00.00Z",
           "type": { "value": "release date"}
         }
       ],
@@ -92,11 +92,11 @@
     {
       "dates": [
         {
-          "date": "2015/01/05",
+          "date": "2015-01-05T00:00:00.00Z",
           "type": {}
         },
         {
-          "date": "2015/06/24",
+          "date": "2015-06-24T00:00:00.00Z",
           "type": { "value": "release date"}
         }
       ],
@@ -150,11 +150,11 @@
     {
       "dates": [
         {
-          "date": "2015/01/05",
+          "date": "2015-01-05T00:00:00.00Z",
           "type": {}
         },
         {
-          "date": "2015/06/24",
+          "date": "2015-06-24T00:00:00.00Z",
           "type": { "value": "release date"}
         }
       ],
@@ -218,7 +218,7 @@
       },
       "dates" : [
         {
-          "date": "2015",
+          "date": "2015-01-01T00:00:00.00Z",
           "type": {
             "value": "publication date"
           }
@@ -277,11 +277,11 @@
       {
         "name" : "X-RAY DIFFRACTION",
         "startDate": {
-          "date": "04-FEB-10",
+          "date": "2010-02-04T00:00:00.00Z",
           "type": { "value": "start date"}
         },
         "endDate": {
-          "date": "04-FEB-10",
+          "date": "2010-02-04T00:00:00.00Z",
           "type": { "value": "end date" }
         },
         "uses": [
