@@ -1,0 +1,251 @@
+{
+  "@type": "Material",
+  "@context": "https://w3id.org/dats/context/sdo/material_context.jsonld",
+  "@id": "",
+  "name": "SU0000000",
+  "identifier": {
+    "identifier": "SU0000000"
+  },
+  "alternateIdentifiers": [                    {
+      "@type": "AlternateIdentifier",
+      "@id": "",
+      "identifier": "0000000",
+      "identifierSource": "dbGaP"
+    }],
+  "description": "Boston Early-Onset COPD Study in the TOPMed Program subject SU0000000",
+  "characteristics": [
+    {
+      "@type": "Dimension",
+      "@id": "",
+      "name": {
+        "value": "Gender"
+      },
+      "description": "Gender of the subject",
+      "values": [
+        "female"
+      ]
+    },
+    {
+      "@type": "Dimension",
+      "@id": "",
+      "name": {
+        "value": "Age"
+      },
+      "description": "Age of the subject",
+      "values": [
+        "46.76"
+      ]
+    },
+    {
+      "@type": "Dimension",
+      "@id": "",
+      "name":  {"value": "body mass index", "valueIRI": "http://purl.obolibrary.org/obo/CMO_0000105"},
+      "description": "Body Mass Index",
+      "datatype":{
+          "information" :  {"value": "body mass index", "valueIRI": "http://purl.obolibrary.org/obo/CMO_0000105"},
+          "method" :  {"value": "body mass index", "valueIRI": ""},
+          "platform" :  {"value": "n/a", "valueIRI": ""} ,
+          "instrument":  {"value": "weighing scale", "valueIRI": "http://purl.obolibrary.org/obo/MMO_0000217"}
+      },
+      "types": [
+        {"value": "body mass index", "valueIRI": "http://purl.obolibrary.org/obo/CMO_0000105"},                       
+        {"value": "continuous variable", "valueIRI": "http://purl.obolibrary.org/obo/STATO_0000251"},
+        {"value": "number", "valueIRI": "http://purl.obolibrary.org/obo/NCIT_C48150"}
+      ],
+      "values": [
+        {
+            "value": "25.2",
+            "rank": "1",
+            "date": { "dateType" : {"value" : "measurementDate", "valueIRI":"" } , "date" : "2017-03-24T20:32:21"}
+        },
+        {
+            "value": "23,4",
+            "rank": "2",
+            "date": { "dateType" :{"value" : "measurementDate", "valueIRI":"" }, "date" : "2017-05-24T20:32:21"}
+        },
+        {
+            "value": "21,5",
+            "rank": "3",
+            "date": { "dateType" :{"value" : "measurementDate", "valueIRI":"" } , "date" : "2017-07-24T20:32:21"}
+        }                        
+      ],
+      "licenses": [
+        {
+          "name" : "OMDB_license",
+          "consentInformation" : [
+            {
+            "value": "no consent granted", 
+            "valueIRI": "http://consent.org/OMDB/NO"
+            }
+            ],
+          "dataUseConditions":[
+          {
+          "value": "restricted use",
+          "valueIRI": "http://obofoundry.org/DUO_000102"
+          }
+          ]
+         }
+      ]
+    }                   
+  ],
+  "taxonomy": [
+    {
+      "@type": "TaxonomicInformation",
+      "@id": "",
+      "name": "Homo sapiens",
+      "identifier": {
+        "identifier": "ncbitax:9606",
+        "identifierSource": "ncbitax"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "value": "patient",
+      "valueIRI": ""
+    },
+    {
+      "value": "donor",
+      "valueIRI": ""
+    }
+  ],
+  "extraProperties": [
+  {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "BMI",
+      "values": [
+        "23.71"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "CIGSPERDAY",
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "CIGSPERDAY_AVERAGE",
+      "values": [
+        "25"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "CURRENT_SMOKER",
+      "values": [
+        "No"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "DNA_AGE",
+      "values": [
+        "48.75"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "FORMER_SMOKER",
+      "values": [
+        "No"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "GENDER",
+      "values": [
+        "Female"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "HEIGHT",
+      "values": [
+        "161.3"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "PACKYEARS",
+      "values": [
+        "32.25"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "PREGNANCY",
+      "values": [
+        "No"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "RACE",
+      "values": [
+        "Caucasian"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "SUBJECT_ID",
+      "values": [
+        "SU0000000"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "VISIT_AGE",
+      "values": [
+        "46.76"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "WEIGHT",
+      "values": [
+        "63.64"
+      ]
+    },
+    {
+      "@type": "CategoryValuesPair",
+      "@id": "",
+      "category": "dbGaP_Subject_ID",
+      "values": [
+        "0000000"
+      ]
+    }
+  ],
+  "derivesFrom": [
+{
+  "@type": "AnatomicalPart",
+  "@id": "",
+  "name": "blood",
+  "identifier": {
+    "identifier": "UBERON:0000178",
+    "identifierSource": "UBERON"
+  },
+  "alternateIdentifiers": [
+    {
+      "identifier": "http://purl.obolibrary.org/obo/UBERON_0000178",
+      "identifierSource": "UBERON"
+    }
+  ]
+}
+]
+}
