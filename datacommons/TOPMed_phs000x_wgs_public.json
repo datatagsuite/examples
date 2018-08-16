@@ -236,6 +236,30 @@
                       ]
                     }
                   ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "unknown",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
                   "taxonomy": [
                     {
                       "@type": "TaxonomicInformation",
@@ -665,7 +689,44 @@
                     }
                   ],
                   "description": "Partners HealthCare Biobank subject SU0000000",
-                  "characteristics": [],
+                  "characteristics": [
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Gender"
+                      },
+                      "description": "Gender of the subject",
+                      "values": [
+                        "female"
+                      ]
+                    }
+                  ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "no",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
                   "taxonomy": [
                     {
                       "@type": "TaxonomicInformation",
@@ -1364,6 +1425,30 @@
                       ]
                     }
                   ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "unknown",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
                   "taxonomy": [
                     {
                       "@type": "TaxonomicInformation",
@@ -1925,7 +2010,56 @@
                     }
                   ],
                   "description": "The Vanderbilt AF Ablation Registry subject SU0000000",
-                  "characteristics": [],
+                  "characteristics": [
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Gender"
+                      },
+                      "description": "Gender of the subject",
+                      "values": [
+                        "female"
+                      ]
+                    },
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Age"
+                      },
+                      "description": "Age of the subject",
+                      "values": [
+                        "59.84"
+                      ]
+                    }
+                  ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "no",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
                   "taxonomy": [
                     {
                       "@type": "TaxonomicInformation",
@@ -2907,7 +3041,44 @@
                     }
                   ],
                   "description": "Trans-Omics for Precision Medicine Whole Genome Sequencing Project: ARICVersion 1: passed embargo subject SU0000000",
-                  "characteristics": [],
+                  "characteristics": [
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Gender"
+                      },
+                      "description": "Gender of the subject",
+                      "values": [
+                        "female"
+                      ]
+                    }
+                  ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "unknown",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
                   "taxonomy": [
                     {
                       "@type": "TaxonomicInformation",
@@ -3286,6 +3457,3317 @@
           "category": "study_type",
           "values": [
             "Longitudinal"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "@context": "http://w3id.org/dats/context/obo/dataset_obo_context.jsonld",
+      "@id": "",
+      "identifier": {
+        "@type": "Identifier",
+        "@context": "http://w3id.org/dats/context/obo/identifier_info_obo_context.jsonld",
+        "@id": "",
+        "identifier": "phs000179.v5.p2"
+      },
+      "version": "v5",
+      "title": "Genetic Epidemiology of COPD (COPDGene)",
+      "storedIn": {
+        "@type": "DataRepository",
+        "@context": "http://w3id.org/dats/context/obo/data_repository_obo_context.jsonld",
+        "@id": "",
+        "name": "dbGaP"
+      },
+      "types": [
+        {
+          "information": {
+            "value": "DNA sequencing",
+            "valueIRI": "http://purl.obolibrary.org/obo/OBI_0000626"
+          },
+          "method": {
+            "value": "whole genome sequencing assay",
+            "valueIRI": "http://purl.obolibrary.org/obo/OBI_0002117"
+          },
+          "platform": {
+            "value": "Illumina HiSeq X Ten",
+            "valueIRI": "http://purl.obolibrary.org/obo/OBI_0002129"
+          }
+        }
+      ],
+      "creators": [
+        {
+          "@type": "Organization",
+          "@context": "http://w3id.org/dats/context/obo/organization_obo_context.jsonld",
+          "@id": "",
+          "name": "The National Institute of Health's National Heart, Lung and Blood Institute",
+          "abbreviation": "NHLBI"
+        }
+      ],
+      "dimensions": [
+        {
+          "@type": "Dimension",
+          "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+          "@id": "",
+          "name": {
+            "value": "Actual Subject Count"
+          },
+          "description": "The actual number of subjects entered into a clinical trial.",
+          "types": [
+            {
+              "value": "Actual Subject Number",
+              "valueIRI": "http://purl.obolibrary.org/obo/NCIT_C98703"
+            }
+          ],
+          "values": [
+            10371
+          ]
+        }
+      ],
+      "extraProperties": [
+        {
+          "@type": "CategoryValuesPair",
+          "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+          "@id": "",
+          "category": "study_type",
+          "values": [
+            "Case-Control"
+          ]
+        }
+      ],
+      "isAbout": [
+        {
+          "@type": "Material",
+          "@context": "http://w3id.org/dats/context/obo/material_obo_context.jsonld",
+          "@id": "",
+          "name": "DNA from SA0000000",
+          "description": "DNA extracted from blood specimen collected from subject SU0000000",
+          "taxonomy": [
+            {
+              "@type": "TaxonomicInformation",
+              "@context": "http://w3id.org/dats/context/obo/taxonomic_info_obo_context.jsonld",
+              "@id": "",
+              "name": "Homo sapiens",
+              "identifier": {
+                "identifier": "ncbitax:9606",
+                "identifierSource": "ncbitax"
+              }
+            }
+          ],
+          "roles": [
+            {
+              "value": "DNA extract",
+              "valueIRI": ""
+            }
+          ],
+          "derivesFrom": [
+            {
+              "@type": "Material",
+              "@context": "http://w3id.org/dats/context/obo/material_obo_context.jsonld",
+              "@id": "",
+              "name": "SA0000000",
+              "identifier": {
+                "identifier": "SA0000000"
+              },
+              "alternateIdentifiers": [
+                {
+                  "@type": "AlternateIdentifier",
+                  "@context": "http://w3id.org/dats/context/obo/alternate_identifier_info_obo_context.jsonld",
+                  "@id": "",
+                  "identifier": "0000000",
+                  "identifierSource": "dbGaP"
+                }
+              ],
+              "description": "blood specimen collected from subject SU0000000",
+              "taxonomy": [
+                {
+                  "@type": "TaxonomicInformation",
+                  "@context": "http://w3id.org/dats/context/obo/taxonomic_info_obo_context.jsonld",
+                  "@id": "",
+                  "name": "Homo sapiens",
+                  "identifier": {
+                    "identifier": "ncbitax:9606",
+                    "identifierSource": "ncbitax"
+                  }
+                }
+              ],
+              "roles": [
+                {
+                  "value": "specimen",
+                  "valueIRI": ""
+                }
+              ],
+              "derivesFrom": [
+                {
+                  "@type": "Material",
+                  "@context": "http://w3id.org/dats/context/obo/material_obo_context.jsonld",
+                  "@id": "",
+                  "name": "SU0000000",
+                  "identifier": {
+                    "identifier": "SU0000000"
+                  },
+                  "alternateIdentifiers": [
+                    {
+                      "@type": "AlternateIdentifier",
+                      "@context": "http://w3id.org/dats/context/obo/alternate_identifier_info_obo_context.jsonld",
+                      "@id": "",
+                      "identifier": "0000000",
+                      "identifierSource": "dbGaP"
+                    }
+                  ],
+                  "description": "Genetic Epidemiology of COPD (COPDGene) subject SU0000000",
+                  "characteristics": [
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Gender"
+                      },
+                      "description": "Gender of the subject",
+                      "values": [
+                        "female"
+                      ]
+                    },
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Age"
+                      },
+                      "description": "Age of the subject",
+                      "values": [
+                        "53.2"
+                      ]
+                    },
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Visit year"
+                      },
+                      "description": "Year of visit, to use for longitudinal analysis",
+                      "values": [
+                        "2009"
+                      ]
+                    },
+                    {
+                      "@type": "Dimension",
+                      "@context": "http://w3id.org/dats/context/obo/dimension_obo_context.jsonld",
+                      "@id": "",
+                      "name": {
+                        "value": "Systolic blood pressure"
+                      },
+                      "description": "Systolic blood pressure of subject, measured in mmHg",
+                      "values": [
+                        "128"
+                      ]
+                    }
+                  ],
+                  "bearerOfDisease": [
+                    {
+                      "@type": "Disease",
+                      "@context": "http://w3id.org/dats/context/obo/disease_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Hypertension",
+                      "identifier": {
+                        "identifier": "DOID:10763",
+                        "identifierSource": "Disease Ontology"
+                      },
+                      "alternateIdentifiers": [
+                        {
+                          "identifier": "http://purl.obolibrary.org/obo/DOID_10763",
+                          "identifierSource": "Disease Ontology"
+                        }
+                      ],
+                      "diseaseStatus": [
+                        {
+                          "value": "no",
+                          "valueIRI": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "taxonomy": [
+                    {
+                      "@type": "TaxonomicInformation",
+                      "@context": "http://w3id.org/dats/context/obo/taxonomic_info_obo_context.jsonld",
+                      "@id": "",
+                      "name": "Homo sapiens",
+                      "identifier": {
+                        "identifier": "ncbitax:9606",
+                        "identifierSource": "ncbitax"
+                      }
+                    }
+                  ],
+                  "roles": [
+                    {
+                      "value": "patient",
+                      "valueIRI": ""
+                    },
+                    {
+                      "value": "donor",
+                      "valueIRI": ""
+                    }
+                  ],
+                  "extraProperties": [
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ATS_ERS",
+                      "values": [
+                        "Mild"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ATS_PackYears",
+                      "values": [
+                        "34.4"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeFirstAttack",
+                      "values": [
+                        "40"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeFirstAttackDK",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeStartSmkCigar",
+                      "values": [
+                        "20"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeStartSmokPipe",
+                      "values": [
+                        "25"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeStopSmokCigar",
+                      "values": [
+                        "30.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeStopSmokPipe",
+                      "values": [
+                        "24.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeWheezWhist",
+                      "values": [
+                        "37"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AgeWheezWhistDK",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Age_Enroll",
+                      "values": [
+                        "53.2"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Alpha1Test",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Angina",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Angioplasty",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ApartFromCold",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Asthma",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaAge",
+                      "values": [
+                        "25"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaAgeDK",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaAgeStop",
+                      "values": [
+                        "13"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaDxByDr",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaStillHave",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaStopChild",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AsthmaTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AttenMean_Exp_vida",
+                      "values": [
+                        "-704.3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AttenMean_Insp_vida",
+                      "values": [
+                        "-823.8"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AwakeByCough",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "AwakeByShrtBrth",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BDR",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BDR_pct_FEV1",
+                      "values": [
+                        "3.8"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BDR_pct_FVC",
+                      "values": [
+                        "1.7"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BMI",
+                      "values": [
+                        "28"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BODE",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BloodClots",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BronchAge",
+                      "values": [
+                        "41"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BronchAgeDK",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BronchAttack",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BronchDxByDr",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "BronchTimes",
+                      "values": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CABG",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPD",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPDExac_Antib_Ster_Home",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPDExac_Hospital",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPDExac_NewRx_Antib_Ster",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPDExac_NoTrt",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "COPDExac_UsualMed",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CancerBladder",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CancerBreast",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CancerColon",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CancerLung",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CancerProstate",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChestIllOther",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChestInj",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChestOper",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChestWheez12mo",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChronBrncStillHv",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChronBroncAge",
+                      "values": [
+                        "35"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChronBroncDxByDr",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChronBroncTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChronBronch",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Chronic_Bronchitis",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ChstWheezyWhist",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigHateGiveUp",
+                      "values": [
+                        "Any other cigarette of the day"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigPerDaySmokAvg",
+                      "values": [
+                        "20"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigPerDaySmokNow",
+                      "values": [
+                        "15"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigSmok24hrs",
+                      "values": [
+                        "13"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigSmok24hrs_NA",
+                      "values": [
+                        "Yes"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigSmok2hrs",
+                      "values": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigSmokHalfHr",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CigarPerDayNow",
+                      "values": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CombcCSBagon",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CompressFracBack",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CongestHeartFail",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CopdAge",
+                      "values": [
+                        "55"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CopdDxByDr",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CopdStillHave",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CopdTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CoronaryArtery",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CortsterOral",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Cortsterinhal",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Cough3Mo",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Cough4Plus",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CoughAM_yn",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CoughNumYr",
+                      "values": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CoughRestDay",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "CurrentMedUse",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Diabetes",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Duration_Smoking",
+                      "values": [
+                        "34.4"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "DustyJobEver",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ERLungProb",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ERLungProbtimes",
+                      "values": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EmphAge",
+                      "values": [
+                        "57.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EmphDxByDr",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EmphStillHave",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EmphTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Emphysema",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EpisodeCghPhlm",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "EverSmokedCig",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Exacerbation_Frequency",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ExclusionaryDisease",
+                      "values": [
+                        "ILD"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ExpFumesNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ExpInspMeanAtten_ratio_Slicer",
+                      "values": [
+                        "0.8628"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ExpInspMeanAtten_ratio_vida",
+                      "values": [
+                        "0.8588"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ExpSmokAtWorkYr",
+                      "values": [
+                        "12"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEF2575_post",
+                      "values": [
+                        "2.11"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEF2575_pre",
+                      "values": [
+                        "1.884"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV1_FVC_post",
+                      "values": [
+                        "0.76"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV1_FVC_pre",
+                      "values": [
+                        "0.74"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV1_post",
+                      "values": [
+                        "2.47"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV1_pre",
+                      "values": [
+                        "2.378"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV1pp_post",
+                      "values": [
+                        "88.8"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV6_post",
+                      "values": [
+                        "3.122"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FEV6_pre",
+                      "values": [
+                        "3.065"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FRC_CT_vida",
+                      "values": [
+                        "2.77"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FRC_Slicer",
+                      "values": [
+                        "2.699"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FRC_TLC_ratio",
+                      "values": [
+                        "0.595"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FRCpp_race_adjusted",
+                      "values": [
+                        "96.35"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FRCpred_race_adjusted",
+                      "values": [
+                        "3.155"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FVC_post",
+                      "values": [
+                        "3.339"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FVC_pre",
+                      "values": [
+                        "3.251"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FVCpp_post",
+                      "values": [
+                        "92"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Fagerstrom_Index",
+                      "values": [
+                        "5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathAsthma",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathCOPD",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathChronBronch",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathCigSmok",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathEmphysema",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FathLungCancer",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FinalApproval",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FindHardNotSmoke",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FlareupChestTrb",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "FumesJobEver",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "GastroEsophReflx",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HR",
+                      "values": [
+                        "74"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HaveCough",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HavePhlegm",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFev",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevAge",
+                      "values": [
+                        "29.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevAgeDK",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevAgeStop",
+                      "values": [
+                        "38.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevDxByDr",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevStill",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevStillHave",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HayFevTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HealthStatus",
+                      "values": [
+                        "Excellent"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HeartAttack",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Height_CM",
+                      "values": [
+                        "170.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HighBloodPres",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HighCholest",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HipFracture",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "HowSoonSmoke",
+                      "values": [
+                        "After 60 min"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Hu_15pct_Exp_Slicer",
+                      "values": [
+                        "-838"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Hu_15pct_Insp_Slicer",
+                      "values": [
+                        "-904"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Hu_15perc_Exp_vida",
+                      "values": [
+                        "-837.9"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Hu_15perc_Insp_vida",
+                      "values": [
+                        "-905"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "IntensityMean_Ex_Slicer",
+                      "values": [
+                        "-708.4"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "IntensityMean_In_Slicer",
+                      "values": [
+                        "-825.3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ItchyBurningEye",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LimitWalkMost",
+                      "values": [
+                        "Both"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LowerBackPain",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LtdLevelSlow",
+                      "values": [
+                        "Does not apply"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LtdLevelStop",
+                      "values": [
+                        "Does not apply"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LtdLvlStop100",
+                      "values": [
+                        "Does not apply"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LtdNotLeaveHm",
+                      "values": [
+                        "Does not apply"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "LtdUphill",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MMRCDyspneaScor",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MacularDegen",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MedorTreatAttack",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MoreOnceAWeek",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MostDaysNights",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothAsthma",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothCOPD",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothChronBronch",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothCigSmok",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothEmphysema",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothLungCancer",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "MothSmokPreg",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "NewGOLD_SGRQ",
+                      "values": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "NumEpisodeLastYr",
+                      "values": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2_Hours_Day",
+                      "values": [
+                        "24"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2_Therapy",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2_Years",
+                      "values": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2_suppl_6MW",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2use_exercise",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2use_rest",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "O2use_sleep",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "OsteoArth",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Osteoporosis",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "OthSmokChildYrs",
+                      "values": [
+                        "18"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "OthSmokYrs",
+                      "values": [
+                        "11.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PEF_post",
+                      "values": [
+                        "6.527"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PEF_pre",
+                      "values": [
+                        "6.432"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PFT_CT_numdays",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Elbow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Foot",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Hip",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Knee",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Shoulder",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainJointType_Wrist",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PainfulJoints",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PeriphVascular",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhenoGenoDK",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhenoGenotype",
+                      "values": [
+                        null
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Phlegm3Mo",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhlegmAM",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhlegmNumYr",
+                      "values": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhlegmOften",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PhlegmRestDay",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Pi10_SRWA_vida",
+                      "values": [
+                        "3.676"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Pi15_SRWA_vida",
+                      "values": [
+                        "5.096"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PneuAge",
+                      "values": [
+                        "33"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PneuAgeDK",
+                      "values": [
+                        "Don't Know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PneuDxByDr",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "PneuTimes",
+                      "values": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Pneumonia",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Pneumothorax",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "QA_CalciumCalPad",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "QtySmokPipeTob",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Resting_SaO2",
+                      "values": [
+                        "98"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "RheumArth",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_BP_score",
+                      "values": [
+                        "62"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_BP_t_score",
+                      "values": [
+                        "46.06"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_GH_score",
+                      "values": [
+                        "62"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_GH_t_score",
+                      "values": [
+                        "45.78"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_MCS_score",
+                      "values": [
+                        "47.62"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_MH_score",
+                      "values": [
+                        "70"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_MH_t_score",
+                      "values": [
+                        "47.19"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_PCS_score",
+                      "values": [
+                        "46.31"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_PF_score",
+                      "values": [
+                        "65"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_PF_t_score",
+                      "values": [
+                        "42.3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_RE_score",
+                      "values": [
+                        "75"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_RE_t_score",
+                      "values": [
+                        "44.22"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_RP_score",
+                      "values": [
+                        "75"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_RP_t_score",
+                      "values": [
+                        "47.06"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_SF_score",
+                      "values": [
+                        "75"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_SF_t_score",
+                      "values": [
+                        "45.94"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_VT_score",
+                      "values": [
+                        "62.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SF36_VT_t_score",
+                      "values": [
+                        "52.09"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SGRQ_scoreActive",
+                      "values": [
+                        "29.4"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SGRQ_scoreImpact",
+                      "values": [
+                        "6.705"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SGRQ_scoreSymptom",
+                      "values": [
+                        "19.45"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SGRQ_scoreTotal",
+                      "values": [
+                        "16.36"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SUBJECT_ID",
+                      "values": [
+                        "SU0000000"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SchoolCompleted",
+                      "values": [
+                        "8th grade or less"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Severe_Exacerbations",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ShrtBrth2Plus",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ShrtBrthAttk",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Siemens64",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SleepApAge",
+                      "values": [
+                        "50.5"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SleepApDxByDr",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SleepApStillHav",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SleepApTreat",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SleepApnea",
+                      "values": [
+                        "Do not know"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokCigNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokCigarNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokCigarPerWeek",
+                      "values": [
+                        "8"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokCigarReg",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokPipeNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokPipeReg",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokStartAge",
+                      "values": [
+                        "16"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokStopAge",
+                      "values": [
+                        "49"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokTobPerWeek",
+                      "values": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokeMenthol",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokeMore2hrs",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SmokeSickBed",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "SneezRunnyNose",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "StiffPainBack",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "StiffPainLimitWk",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "StomachUlcers",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "StopWork",
+                      "values": [
+                        "Other"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Stroke",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Study_Phase",
+                      "values": [
+                        "baseline"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TIA",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TLC_CT_vida",
+                      "values": [
+                        "4.91"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TLC_Slicer",
+                      "values": [
+                        "4.868"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TLCpp_low_flag",
+                      "values": [
+                        "Not flagged as an issue"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TLCpp_race_adjusted",
+                      "values": [
+                        "90"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TLCpred_race_adjusted",
+                      "values": [
+                        "5.737"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TreatChestIll",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TreatChestTimes",
+                      "values": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TreatSteroiTimes",
+                      "values": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "TreatSteroids",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "UnablWalkCondOth",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "UpperLobe_pctTotalAirVol_vida",
+                      "values": [
+                        "45.73"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "UpperThird_LowerThird_Slicer",
+                      "values": [
+                        "0.727"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Visit_Year",
+                      "values": [
+                        "2009"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WalkSymp_BackPain",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WalkSymp_JointPain",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WalkSymp_Legs_Fatigue",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WalkSymp_ShortnessBreath",
+                      "values": [
+                        "Checked (multiple-response)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Walk_Course",
+                      "values": [
+                        "Circular"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Walk_Limit",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WallAreaPct_seg_vida",
+                      "values": [
+                        "60.74"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WallAreaPct_subseg_vida",
+                      "values": [
+                        "64.11"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "Weight_KG",
+                      "values": [
+                        "82"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WithCold",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WorkDustyJobNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "WorkNow",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "YearsSinceQuit",
+                      "values": [
+                        "0"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "YrsEpisodeLast",
+                      "values": [
+                        "4"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "bagonist",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "bagonistlongact",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "combivent",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "dbGaP_Subject_ID",
+                      "values": [
+                        "0000000"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "deid_center",
+                      "values": [
+                        null
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "deltaFEV1",
+                      "values": [
+                        "0.0875"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "deltaFVC",
+                      "values": [
+                        "0.0625"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "diasBP",
+                      "values": [
+                        "80"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "distwalked",
+                      "values": [
+                        "1463"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ethnic",
+                      "values": [
+                        "Not Hispanic or Latino"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "finalGold",
+                      "values": [
+                        "GOLD 0 Control (FEV1 >  80% FEV1/FVC >  0.7)"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "gender",
+                      "values": [
+                        "Female"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "ipratrop",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "kernel",
+                      "values": [
+                        "B35F"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "nebulizer",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_LowerLobes_vida",
+                      "values": [
+                        "0.6883"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_LowerThird_Slicer",
+                      "values": [
+                        "1.033"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_Slicer",
+                      "values": [
+                        "0.9496"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_UL_LL_ratio_vida",
+                      "values": [
+                        "1.476"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_UpperLobes_vida",
+                      "values": [
+                        "1.061"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_UpperThird_Slicer",
+                      "values": [
+                        "0.7111"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctEmph_vida",
+                      "values": [
+                        "1.036"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctGasTrap_Slicer",
+                      "values": [
+                        "10.09"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pctGasTrap_vida",
+                      "values": [
+                        "10.54"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "pftused",
+                      "values": [
+                        "failed"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "race",
+                      "values": [
+                        "African American"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "scanner",
+                      "values": [
+                        "GE/Discovery HD750"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "sysBP",
+                      "values": [
+                        "128"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "theoph",
+                      "values": [
+                        "No"
+                      ]
+                    },
+                    {
+                      "@type": "CategoryValuesPair",
+                      "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                      "@id": "",
+                      "category": "tiotrop",
+                      "values": [
+                        "No"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "@type": "AnatomicalPart",
+                  "@context": "http://w3id.org/dats/context/obo/anatomical_part_obo_context.jsonld",
+                  "@id": "",
+                  "name": "blood",
+                  "identifier": {
+                    "identifier": "UBERON:0000178",
+                    "identifierSource": "UBERON"
+                  },
+                  "alternateIdentifiers": [
+                    {
+                      "identifier": "http://purl.obolibrary.org/obo/UBERON_0000178",
+                      "identifierSource": "UBERON"
+                    }
+                  ]
+                }
+              ],
+              "extraProperties": [
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "BODY_SITE",
+                  "values": [
+                    "Blood"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "SAMPLE_ID",
+                  "values": [
+                    "SA0000000"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "analyte_type",
+                  "values": [
+                    "DNA"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "dbGaP_Sample_ID",
+                  "values": [
+                    "0000000"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "genotyping_center",
+                  "values": [
+                    "CIDR"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "histological_type",
+                  "values": [
+                    "Blood"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "is_tumor",
+                  "values": [
+                    "Is not a tumor"
+                  ]
+                },
+                {
+                  "@type": "CategoryValuesPair",
+                  "@context": "http://w3id.org/dats/context/obo/category_values_pair_obo_context.jsonld",
+                  "@id": "",
+                  "category": "sequencing_center",
+                  "values": [
+                    null
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
