@@ -1096,7 +1096,7 @@
       "identifier": {
         "@type": "Identifier",
         "@id": "http://w3id.org/datacommons/phs001032.v3.p2.identifier",
-        "@context": [ "https://w3id.org/dats/context/sdo/identifier_info_sdo_context.jsonld", "https://w3id.org/dats/context/sdo/identifier_info_sdo_context.jsonld"],
+        "@context": [ "https://w3id.org/dats/context/sdo/identifier_info_sdo_context.jsonld", "https://w3id.org/dats/context/obo/identifier_info_obo_context.jsonld"],
         "identifier": "phs001032.v3.p2"
       },
       "version": "v3",
@@ -1325,7 +1325,7 @@
       "title": "Whole Genome Sequencing and Related Phenotypes in the Framingham Heart Study",
       "storedIn": {
         "@type": "DataRepository",
-        "@context": [ "https://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld", "https://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld"],
+        "@context": [ "https://w3id.org/dats/context/sdo/data_repository_sdo_context.jsonld", "https://w3id.org/dats/context/obo/data_repository_obo_context.jsonld"],
         "@id": "http://w3id.org/datacommons/datarepository2",
         "name": "dbGaP"
       },
