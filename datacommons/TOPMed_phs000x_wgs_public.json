@@ -252,12 +252,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "unknown",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "unknown",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
@@ -719,12 +718,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "no",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "no",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
@@ -1441,12 +1439,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "unknown",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "unknown",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
@@ -2052,12 +2049,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "no",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "no",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
@@ -3071,12 +3067,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "unknown",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "unknown",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
@@ -3682,12 +3677,11 @@
                           "identifierSource": "Disease Ontology"
                         }
                       ],
-                      "diseaseStatus": [
-                        {
-                          "value": "no",
-                          "valueIRI": ""
-                        }
-                      ]
+                      "diseaseStatus":
+                      {
+                        "value": "no",
+                        "valueIRI": ""
+                      }
                     }
                   ],
                   "taxonomy": [
