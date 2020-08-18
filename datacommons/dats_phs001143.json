@@ -46,18 +46,18 @@
           {
             "category": "ConsentAbbrev",
             "values": [
-              "EA-IRB"
+              {"value": "EA-IRB"}
             ]
           },
           {
             "values": [
-              "Yes"
+              {"value":"Yes"}
             ],
             "category": "IrbRequired"
           },
           {
             "values": [
-              "Use by NHLBI WGS study investigators only. There is one consent group for this study: GRU-IRB. Use of the data is limited only by the terms of the model Data Use Certification. Requestor must provide documentation of local IRB approval."
+              {"value":"Use by NHLBI WGS study investigators only. There is one consent group for this study: GRU-IRB. Use of the data is limited only by the terms of the model Data Use Certification. Requestor must provide documentation of local IRB approval."}
             ],
             "category": "UseLimitation"
           }
@@ -79,7 +79,7 @@
               {
                 "category": "vocab_source",
                 "values": [
-                  "MESH"
+                  {"value": "MESH"}
                 ]
               }
             ]
@@ -95,24 +95,24 @@
           {
             "category": "urlToHtml",
             "values": [
-              "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001143.v1.p1&phd=6969"
+              {"value":"http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/document.cgi?study_id=phs001143.v1.p1&phd=6969"}
             ]
           },
           {
             "category": "urlToXml",
             "values": [
-              "http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd006969.2"
+              {"value":"http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetDocumentXml.cgi?document_id=phd006969.2"}
             ]
           },
           {
             "values": [
-              "public"
+              {"value":"public"}
             ],
             "category": "displayStatus"
           },
           {
             "values": [
-              "public"
+              {"value":"public"}
             ],
             "category": "xmlStatus"
           }
@@ -166,13 +166,13 @@
           },
           {
             "values": [
-              "public"
+              {"value":"public"}
             ],
             "category": "displayStatus"
           },
           {
             "values": [
-              "public"
+              {"value":"public"}
             ],
             "category": "xmlStatus"
           }
@@ -234,19 +234,19 @@
         {
           "category": "DacEmail",
           "values": [
-            ""
+            {"value": ""}
           ]
         },
         {
           "category": "DacPhone",
           "values": [
-            ""
+            {"value": ""}
           ]
         },
         {
           "category": "DacUrl",
           "values": [
-            ""
+            {"value": ""}
           ]
         }
       ],
@@ -274,61 +274,61 @@
         {
           "category": "para",
           "values": [
-            "http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"
+            {"value": "http://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"}
           ]
         },
         {
           "values": [
-            "yes"
+            {"value": "yes"}
           ],
           "category": "Policy DisplayPublicSummary"
         },
         {
           "values": [
-            "yes"
+            {"value": "yes"}
           ],
           "category": "DisplayResearchStatement"
         },
         {
           "category": "FileName",
           "values": [
-            ""
+            {"value": ""}
           ]
         },
         {
           "category": "FilePath",
           "values": [
-            "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"
+            {"value": "https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?page=DUC&view_pdf&stacc=phs001143.v1.p1"}
           ]
         },
         {
           "category": "EmbargoLength",
           "values": [
-            "0"
+            {"value": "0"}
           ]
         },
         {
           "category": "PdfSupplementReqired",
           "values": [
-            "yes"
+            {"value": "yes"}
           ]
         },
         {
           "category": "WeeksCancelRequest",
           "values": [
-            "8"
+            {"value": "8"}
           ]
         },
         {
           "category": "YearsUntilRenewal",
           "values": [
-            "1"
+            {"value": "1"}
           ]
         },
         {
           "category": "Configuration DisplayPublicSummary",
           "values": [
-            "yes"
+            {"value": "yes"}
           ]
         }
       ],
@@ -352,7 +352,7 @@
   "extraProperties": [
     {
       "values": [
-        "NHLBI TOPMed: The Genetics and Epidemiology of Asthma in Barbados"
+        {"value": "NHLBI TOPMed: The Genetics and Epidemiology of Asthma in Barbados"}
       ],
       "category": "StudyNameReportPage"
     }

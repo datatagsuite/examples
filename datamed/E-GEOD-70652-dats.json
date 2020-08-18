@@ -94,7 +94,7 @@
       },
       "extraProperties": [{
         "category": "primary",
-        "values": [ "true"]
+        "values": [ {"value": "true"} ]
         }
       ]
     }
@@ -130,7 +130,7 @@
   "availability": "available",
   "types": [
     {
-      "value": "gene expression"
+      "information": {"value": "gene expression"}
     }
   ],
   "creators": [
