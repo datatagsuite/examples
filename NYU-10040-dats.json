@@ -505,7 +505,7 @@
       {
         "category": "minimum age",
         "values": [{
-          "values":"N/A",
+          "value":"N/A",
           "valueIRI" : ""
         }
         ]
@@ -513,7 +513,7 @@
       {
         "category": "maximum age",
         "values": [{
-          "values":"N/A",
+          "value":"N/A",
           "valueIRI" : ""
         }
         ]
@@ -522,7 +522,7 @@
         "category": "healthy volunteers",
         "values": [
           {
-            "values":"Accepts Healthy Volunteers",
+            "value":"Accepts Healthy Volunteers",
             "valueIRI" : ""
           }
 
